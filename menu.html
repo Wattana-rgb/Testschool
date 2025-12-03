@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>เมนูหลัก</title>
+    <style>
+        /* CSS สำหรับเมนูในแนวนอน */
+        body { margin: 0; padding: 0; font-family: Tahoma, sans-serif; background-color: #0056b3; height: 50px; }
+        .navbar { list-style-type: none; margin: 0; padding: 0; overflow: hidden; display: flex; height: 50px; }
+        .dropdown { float: left; }
+        
+        /* Dropbtn ที่เปลี่ยนเป็น A-tag */
+        .dropbtn {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            line-height: 20px;
+            background-color: #0056b3;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        
+        .dropbtn:hover { background-color: #007bff; }
+    </style>
+</head>
+<body>
+
+    <ul class="navbar">
+        
+        <li class="dropdown">
+            <a href="home.html" target="mainFrame" class="dropbtn">🏠 หน้าแรก</a>
+        </li>
+
+        <li class="dropdown">
+            <a href="menu_sub_info.html" target="menuFrame" class="dropbtn">📰 ข้อมูลโรงเรียน</a> 
+        </li>
+
+        <li class="dropdown">
+            <a href="personnel.html" target="mainFrame" class="dropbtn">🧑‍🏫 บุคลากร</a>
+        </li>
+
+        <li class="dropdown">
+            <a href="menu_sub_activity.html" target="menuFrame" class="dropbtn">🎨 ข่าวสาร/กิจกรรม</a>
+        </li>
+        
+        <li class="dropdown">
+            <a href="menu_sub_group.html" target="menuFrame" class="dropbtn">💼 กลุ่มงาน</a>
+        </li>
+
+        <li class="dropdown">
+            <a href="map.html" target="mainFrame" class="dropbtn">📞 ติดต่อเรา</a>
+        </li>
+
+    </ul>
+
+</body>
+</html>
